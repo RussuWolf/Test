@@ -1,0 +1,20 @@
+input,
+select,
+textarea {
+    font-size: 100%; /* Corrects font size not being inherited in all browsers */
+    margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+    vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+}
+
+textarea {
+    overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+    padding-left: 3px;
+    vertical-align: top; /* Improves readability and alignment in all browsers */
+}
+input{
+	border: none;
+	background: none;
+	padding: 0;	
+	font-family: 'Acrom-ExtraBold', sans-serif;
+	text-transform: uppercase;
+}

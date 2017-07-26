@@ -1,0 +1,27 @@
+//*******************************
+//IMPORTS
+//reset
+//*****************************
+@import '../bower_components/components-font-awesome/css/font-awesome.css';
+@import '../bower_components/bootstrap-sass-grid/sass/bootstrap-sass-grid.scss';
+@import '../bower_components/owl.carousel/dist/assets/owl.carousel.min.css';
+@import 'reset';
+
+// ***********************************
+// HELPERS
+// ***********************************
+
+@import "variables";
+
+// ***********************************
+// BASE STYLES
+// ***********************************
+@import "base";
+@import "fonts";
+@import 'form';
+@import "images";
+@import "media";
+@import "navigation";
+@import "_typography";
+@import 'mixins';
+

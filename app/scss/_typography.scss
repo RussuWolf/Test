@@ -1,0 +1,52 @@
+// ***********************************
+// LINKS
+// ***********************************
+
+a, a:visited {
+	text-decoration:none;
+	color:$navColor;
+}
+a:hover, a:active, a:focus {
+	color:$navColor;
+}
+
+
+// ***********************************
+// TYPOGRAPHY AND LINKS
+// ***********************************
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0 ;
+}
+li {
+	list-style: none;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Acrom-ExtraBold', sans-serif;
+	text-transform: uppercase;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.who-we-are_link {
+	a {
+		color: $blue;
+		text-decoration: underline;
+	}
+}
+.left_section {
+	a {
+		display: block;
+		color: $blue;
+		text-decoration: underline;
+		text-transform: uppercase;
+		font-family: 'Acrom-ExtraBold', sans-serif;
+	}
+}
+.col_adress {
+	a {
+		color: $blue;
+		text-decoration: underline;
+	}
+}

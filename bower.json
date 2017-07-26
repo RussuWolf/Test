@@ -1,0 +1,28 @@
+{
+  "name": "test_task_udg",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Russu Peter <russu.pw@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
+  },
+  "dependencies": {
+    "components-font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "bootstrap-sass-grid": "^4.0.1",
+    "picturefill": "^3.0.3",
+    "owl.carousel": "^2.2.1"
+  }
+}
