@@ -1,9 +1,22 @@
-@media only screen and (max-width: 768px)   {
+@media only screen and (max-width: 750px)   {
 	.logo_wrap {
 		width: 20%;
+		float: left;
+	}
+	.logo {
+		img {
+			width: 4em;
+		}
+		p {
+			float: left;
+			font-size: 10px;
+			line-height: 1.2;
+			margin-left: 60px;
+			margin-top: -35px;
+		}
 	}
 	.naw_wrap {
-		width: 80%;
+		float: right;
 	}
 	.col_adress, .col_mail {
 		width: 100%;
@@ -11,23 +24,8 @@
 	}
 	.header_top {
 		padding-bottom: 10px;
-		border-bottom: 1px solid #fff;
 	}
-	.logo_wrap {
-		width: 20%;
-	}
-	.logo {
-		width: 135px;
-		img {
-			width: 50%;
-		}
-		p {
-			font-size: 10px;
-			line-height: 1;
-			margin-left: 60px;
-			margin-top: -40px;
-		}
-	}
+
 	.naw_wrap {
 		width: 50%;
 	}
@@ -49,6 +47,9 @@
 			line-height: 1;
 		}
 	}
+	.header_content_wrap {
+		border-top: 1px solid #fff;
+	}
 	.rec_right_top {
 		left: 30px;
 	}
@@ -64,8 +65,9 @@
 	.mouse_wrap {
 		display: none;
 	}
-	.left_section, .right_section {
-		width: 100%;
+	
+	.who-we-are {
+		margin-top: 3.333em;
 	}
 	.title {
 		width: 100%;
@@ -73,7 +75,27 @@
 	}
 	.image {
 		width: 50%;
+		float: none;
+		padding-left: 4em;
+		padding-bottom: 2.667em;
 	}
+
+	.image_wrap {
+		height: auto;
+		padding-bottom: 100%;
+	}
+	.our_project {
+		margin-top: 30px;
+	}
+	.left_section, .product_list {
+		width: 100%;
+	}
+	.left_section {
+		a {
+			padding-bottom: 30px;
+		}
+	}
+
 }
 /* Smartphones----------- */
 /* Extra Small Devices, Phones */
@@ -106,7 +128,7 @@
 	
 	}
 	#burger-container {	
-		.open {
+		&.open {
 			span {
 				&:nth-child(2) {
 				  	width: 0;
@@ -118,6 +140,7 @@
 				}
 				&:nth-child(1) {
 					transform: rotate(-45deg);
+					background: $green;
 					top: 6px;
 				}
 			}
@@ -137,11 +160,30 @@
 	.header_content_wrap  {
 		padding-top: 85px;
 	}
-	nav {
-		float: none;
-	}
 	.nav-expanded {
+		background: #439c92;
+		padding: 30px 0;
+    	z-index: 1;
+		position: absolute;
+		top: 65px;
+		left: 0;
 		display: block;
+		text-align: center;
+		width: 100%;
+		li {
+			display: block;
+			padding: 10px 15px;
+		}
+		a {
+			font-size: 20px;
+			line-height: 2.5;
+			text-transform: uppercase;
+			font-family: 'Acrom-ExtraBold', sans-serif;
+			transition: all .5s ease;
+			&:hover {
+				color: $green;
+			}
+		}
 	}
 
 	

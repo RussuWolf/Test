@@ -9,6 +9,9 @@ a, a:visited {
 a:hover, a:active, a:focus {
 	color:$navColor;
 }
+a {
+	cursor: pointer;
+}
 
 
 // ***********************************
